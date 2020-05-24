@@ -6,21 +6,21 @@ It is an example that I have prepared for the [Twitch](https://twitch.tv/afronsk
 
 ## Prerequisites
 
-- *MySQL >= 8.0*.
-    - Use *Docker*: `docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=localInstance2020 -p 3306:3306 -d mysql:8`
+- *MySQL >= 8.0* - use *Docker*: 
+    - `docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=localInstance2020 -p 3306:3306 -d mysql:8`
 
 ## Examples
 
 ```bash
 # Login:
-curl -i -XPOST -H "Content-Type: application/x-www-form-urlencoded" \
+curl -i -XPOST -H "Content-Type: application/x-www-form-urlencoded"        \
      -d "username=admin@example.com&password=12345" http://localhost/login
 
 # List all notes:
 curl -i -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" http://localhost/notes
 
 # Create a note:
-curl -i -XPUT -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" -H "Content-Type: application/json" \
+curl -i -XPUT -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" -H "Content-Type: application/json"    \
      -d '{"title": "1st note", "message": "message", "location": "Poland"}' http://localhost/notes
 ```
 
