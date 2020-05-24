@@ -13,8 +13,8 @@ It is an example that I have prepared for the [Twitch](https://twitch.tv/afronsk
 
 ```bash
 # Login:
-curl -i -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "username=admin@example.com&password=12345" \
-     http://localhost/login
+curl -i -XPOST -H "Content-Type: application/x-www-form-urlencoded" \
+     -d "username=admin@example.com&password=12345" http://localhost/login
 
 # List all notes:
 curl -i -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" http://localhost/notes
