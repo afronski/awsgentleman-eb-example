@@ -1,8 +1,8 @@
-# AWS Elastic Beanstalk example from [AWS Gentleman](https://awsgentleman.com/category/aws-cdk/) Twitch stream
+# AWS Elastic Beanstalk example for [AWS Gentleman](https://awsgentleman.com/category/aws-cdk/) [Twitch](https://twitch.tv/afronski) Stream
 
 ## What is it?
 
-It is an example that I have prepared for the [Twitch](https://twitch.tv/afronski) stream session from *AWS Certification* support group for *Associate level* preparations done as a part of [AWS Gentleman](https://awsgentleman.com) initiative.
+It is an example that I have prepared for the [Twitch](https://twitch.tv/afronski) Stream from *AWS Certification* support group for *Associate level* preparations done as a part of [AWS Gentleman](https://awsgentleman.com) initiative.
 
 ## Prerequisites
 
