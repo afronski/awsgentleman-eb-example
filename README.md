@@ -24,9 +24,14 @@ curl -i -XPUT -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" -H "Content-Type: ap
      -d '{"title": "1st note", "message": "message", "location": "Poland"}' http://localhost/notes
 ```
 
-## Deployment
+## Environment variables for a deployment
 
-- 
+- `SERVER_PORT`: `5000`
+- `SPRING_DATASOURCE_PASSWORD`: `localInstance2020`
+- `SPRING_DATASOURCE_URL`: `jdbc:mysql://<YOUR_RDS_INSTANCE>.eu-west-1.rds.amazonaws.com:3306/ebdb`
+- `SPRING_DATASOURCE_USERNAME`: `root`
+- `SPRING_JPA_DATABASE_PLATFORM`: `org.hibernate.dialect.MySQL8Dialect`
+- `SPRING_JPA_HIBERNATE_DDL_AUTO`: `update`
 
 ## License
 
