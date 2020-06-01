@@ -26,7 +26,7 @@ curl -i -XPUT -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" -H "Content-Type: ap
 
 ## Environment variables for a deployment
 
-- `SERVER_PORT`: `80`
+- `SERVER_PORT`: `5000`
 - `SPRING_DATASOURCE_URL`: `jdbc:mysql://${RDS_HOSTNAME}:${RDS_PORT}/${RDS_DB_NAME}`
 - `SPRING_DATASOURCE_USERNAME`: `${RDS_USERNAME}`
 - `SPRING_DATASOURCE_PASSWORD`: `${RDS_PASSWORD}`
