@@ -1,4 +1,4 @@
-# AWS Elastic Beanstalk example for [AWS Gentleman](https://awsgentleman.com/category/aws-cdk/) live stream
+# AWS Elastic Beanstalk example for [AWS Gentleman live stream](https://awsgentleman.com/live)
 
 ## What is it?
 
